@@ -20,9 +20,9 @@ function currentLine (line) {
   var count = line.length
   var i = 1;
 if (count > 0){
-  var lineString = "The line is currently: "
+  var lineString = "The line is currently:"
   while (count > 0){
-    lineString += `${i}. ${line[i-1]}`
+    lineString += ` ${i}. ${line[i-1]}`
     i++;
     count--;
   }

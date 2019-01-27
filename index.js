@@ -23,6 +23,9 @@ if (count > 0){
   var lineString = "The line is currently:"
   while (count > 0){
     lineString += ` ${i}. ${line[i-1]}`
+    if (i < line.length - 1){
+      lineString += ","
+    }
     i++;
     count--;
   }
